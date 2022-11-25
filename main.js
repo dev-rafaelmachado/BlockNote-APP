@@ -6,6 +6,8 @@ function createWindow() {
     Width: 500,
     Height: 700,
     resizable: true,
+    transparent: true,
+    titleBarStyle: 'customButtonsOnHover',
     icon: __dirname+ '/imgs/notes.png',
   });
 
@@ -15,8 +17,8 @@ function createWindow() {
 //  ->->- Menu ->->-
 const templateMenu = [];
 
-const menu = Menu.buildFromTemplate(templateMenu);
-Menu.setApplicationMenu(menu);
+// const menu = Menu.buildFromTemplate(templateMenu);
+// Menu.setApplicationMenu(menu);
 
 app.whenReady().then(() => {
   createWindow();
