@@ -1,3 +1,4 @@
+
 const firebaseConfig = {
     apiKey: "AIzaSyDlx7bTDkgD37dRPlckEuKhCdd_G_lrrU8",
     authDomain: "simple-blocknotes.firebaseapp.com",

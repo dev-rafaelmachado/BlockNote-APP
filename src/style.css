@@ -9,14 +9,51 @@
 html, body{
     width: 100%;
     height: 100%;
-
+    -webkit-box-sizing: border-box;
     background: #191a21;
+    padding: 1px 0px;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background:#2c2c2c;
     display: flex;
+}
+
+.empty{
+    width: 80%;
+    height: 100%;
+    -webkit-app-region: drag;
+}
+
+.buttons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header button{
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+header button:hover{
+    background-color: #00000028;
+}
+header svg{
+    fill: #7e7e7e;
 }
 
 main{
-    width: 95%;
+    width: 100%;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -39,13 +76,13 @@ main{
     height: 100%;
 }
 .actions{
+    height: auto;
     width: 5%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 10px 0px;
 }
 
 .text textarea{

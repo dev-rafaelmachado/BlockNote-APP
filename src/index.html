@@ -2,14 +2,33 @@
   <head>
     <meta charset="UTF-8" />
     <title>BlockNotes</title>
-    <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <script src="app-functions.js" defer></script>
   </head>
   <body>
+    <header>
+      <div class="empty"></div>
+      <div class="Buttons">
+        <button id="closeBtn">
+          <svg
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="2"
+            viewBox="0 0 24 24"
+            width="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
     <main>
-        
-        <button class="adc"> + </button>
-
+      <button class="adc">+</button>
     </main>
 
     <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
